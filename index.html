@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  
+  <!-- Google Fonts (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- External CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <!-- Sticky Header & Navigation Bar -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about" class="section-container">
+    <h2>About Me</h2>
+    <div class="profile-container">
+      <!-- You can replace the src with your local file path: images/profile.png -->
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Picture of John Doe" class="profile-img">
+    </div>
+    <p class="about-text">Hello! My name is Prateek Choudhary. I am learning web development and this is my first portfolio website.</p>
+  </section>
+
+  <hr class="separator">
+
+  <!-- My Skills Section -->
+  <section id="skills" class="section-container">
+    <h2>My Skills</h2>
+    <table class="skills-table">
+      <thead>
+        <tr>
+          <th>Skill</th>
+          <th>Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>CSS</td>
+          <td>Beginner</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Learning</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="separator">
+
+  <!-- My Projects Section -->
+  <section id="projects" class="section-container">
+    <h2>My Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>A simple HTML & CSS webpage.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project 2</h3>
+        <p>Another awesome mini project.</p>
+      </div>
+    </div>
+  </section>
+
+  <hr class="separator">
+
+  <!-- Contact Me Section -->
+  <section id="contact" class="section-container">
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="#" method="post">
+      <table class="form-table">
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+        </tr>
+        <tr>
+          <td><label for="message">Message:</label></td>
+          <td><textarea id="message" name="message" rows="3" placeholder="Write your message" required></textarea></td>
+        </tr>
+      </table>
+      <div class="form-submit-container">
+        <button type="submit" class="btn btn-submit">Send</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Back to Top Button -->
+  <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+</body>
+</html>
